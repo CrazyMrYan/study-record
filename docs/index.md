@@ -1,5 +1,11 @@
 ## 这里是 JiaHui 的学习记录
-<CustomComponent />
+此项目使用了 
+- 主题： [VitePress](https://vitepress.vuejs.org/) 
+- CI/CD：[Vercel](https://vercel.com/) 
+- 评论： [Gitalk](https://gitalk.github.io/) 
+
+
+<Comment />
 <script setup>
-import CustomComponent from './theme/components/Comment.vue'
+import Comment from '/theme/components/Comment.vue'
 </script>

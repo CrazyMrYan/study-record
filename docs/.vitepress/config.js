@@ -17,7 +17,7 @@ module.exports = {
   // 主题配置
   themeConfig: {
     docsDir: "docs",
-    repo: 'CrazyMrYan/study-record',
+    repo: "CrazyMrYan/study-record",
     docsBranch: "main",
     editLinks: true,
     editLinkText: "去GitHub编辑",
@@ -31,25 +31,45 @@ module.exports = {
     ],
     sidebar: {
       "/about/": getConfigSidebar(),
-      "/": getGuideSidebar()
+      "/": getHomeSidebar()
     }
   }
 };
 
-function getGuideSidebar() {
+function getHomeSidebar() {
   return [
     {
       text: "JS",
       children: [
         { text: "与后台对接SSE记录", link: "/study/js/sse/" },
+        { text: "深浅拷贝", link: "/study/js/es6/depth-Copy" },
+        {
+          text: "网站监控",
+          children: [
+            {
+              text: "网站监控1",
+              link: "/study/js/es5/website-Monitoring"
+            },
+            {
+              text: "网站监控2",
+              link: "/study/js/es5/website-Monitoring2"
+            }
+          ]
+        }
       ]
     },
     {
       text: "Package",
-      children: [
-        { text: "压缩包在线预览", link: "/study/package/js_zip/" },
-      ]
+      children: [{ text: "压缩包在线预览", link: "/study/package/js_zip/" }]
     },
+    {
+      text: "GitHub",
+      children: [{ text: "快速搭建 gitalk 评论", link: "/study/github/gitalk-Study" }]
+    },
+    {
+      text: "Nodejs",
+      children: [{ text: "讯飞语音小助手", link: "/study/node/node-xunfei" }]
+    }
   ];
 }
 

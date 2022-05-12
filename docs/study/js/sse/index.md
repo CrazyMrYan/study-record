@@ -1,4 +1,4 @@
-# SSE
+## SSE 是什么
 > `SSE` 全称是 `Server-Sent Events`，用于服务端推送到客户端的一种手段，有很多 `WebSocket` vs `SSE`的文章，大家可以去看看。最终根据自己的业务需求，或后期的产品规划进行抉择。我们这边纯粹是为了，服务端进行推送，前端展示一个数量，没有其他的交互。所以最终还是采用了 `SSE` 的方案。
 
 ## 前期的调研
@@ -95,3 +95,9 @@ node index.js
 在浏览器中我们就能看到下面的效果
 
 ![](../../../public/images/WX20220512-171628.png)
+
+
+<Comment />
+<script setup>
+import Comment from '/theme/components/Comment.vue'
+</script>
