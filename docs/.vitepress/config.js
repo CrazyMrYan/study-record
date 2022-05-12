@@ -2,7 +2,7 @@
 module.exports = {
   title: "study-record", // 网站标题
   description: "学习的记录", //网站描述
-  base: "/study-record/", //  部署时的路径 默认 /  可以使用二级地址 /base/
+  base: "/", //  部署时的路径 默认 /  可以使用二级地址 /base/
   // lang: 'en-US', //语言
   docsDir: "docs",
   docsBranch: "main",
