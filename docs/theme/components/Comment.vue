@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Gitalk from 'gitalk'
+import Gitalk from 'gitalk';
   export default {
     name: "blog-comments",
     mounted() {
@@ -28,3 +28,7 @@ import Gitalk from 'gitalk'
     },
   };
 </script>
+
+<style>
+  @import url('https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css');
+</style>
