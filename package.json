@@ -1,0 +1,16 @@
+{
+  "name": "study-blog",
+  "version": "1.0.0",
+  "description": "My study notes blog",
+  "main": "index.js",
+  "author": "wuqian",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^0.22.4"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
