@@ -4,11 +4,6 @@ module.exports = {
   description: "学习的记录", //网站描述
   base: "/", //  部署时的路径 默认 /  可以使用二级地址 /base/
   // lang: 'en-US', //语言
-  docsDir: "docs",
-  docsBranch: "main",
-  editLinks: true,
-  editLinkText: "Edit this page on GitHub",
-  lastUpdated: "Last Updated",
   head: [
     // 改变title的图标
     [
@@ -21,7 +16,12 @@ module.exports = {
   ],
   // 主题配置
   themeConfig: {
-    repo: "CrazyMrYan/study-record",
+    docsDir: "docs",
+    repo: 'CrazyMrYan/study-record',
+    docsBranch: "main",
+    editLinks: true,
+    editLinkText: "去GitHub编辑",
+    lastUpdated: "最后更新于",
     nav: [
       { text: "首页", link: "/", activeMatch: "^/$|^/study/" },
       {
@@ -41,8 +41,13 @@ function getGuideSidebar() {
     {
       text: "JS",
       children: [
-        { text: "压缩包在线预览", link: "/study/package/js_zip/" },
         { text: "与后台对接SSE记录", link: "/study/js/sse/" },
+      ]
+    },
+    {
+      text: "Package",
+      children: [
+        { text: "压缩包在线预览", link: "/study/package/js_zip/" },
       ]
     },
   ];
