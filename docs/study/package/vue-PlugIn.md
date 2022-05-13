@@ -61,7 +61,7 @@ Star `223`
 
 我们想象力永远比不过 `产品经理` 、`甲方`、和`老板` ，突然有一天甲方说，让你在项目中加一个可编辑的思维导图，然后保存成笔记。当时听到这个需求时，我正在练习闪电五连鞭。还好老严在 轮子市场 找到了它  —`mindmap`
 
-![](./images/image-20201221142039308.png)
+![](/images/image-20201221142039308.png)
 
 简单使用
 
@@ -123,7 +123,7 @@ Star `22.1k`
 
 提高用户体验的一大神器，页面进度条加载，在页面跳转时使用 `NProgress ` 它会在顶部出现一个进度条，支持自定义配置颜色大小
 
-![](./images/image-20201221173943371.png)
+![](/images/image-20201221173943371.png)
 
 简单使用
 
@@ -158,7 +158,7 @@ Star `12.4k`
 
 移动端调试，是一个非常棘手的事情，你永远不知到真机到底会发生什么意外，你还在使用 alert 来调试移动端吗？但是如果你有了 `vConsole` ，这一切将会变得轻而易举
 
-<span><img src="./images/_20201221175526.jpg" style="width:300px"/><img src="./images/_20201221175532.jpg" style="width:300px"/></span>
+<span><img src="/images/_20201221175526.jpg" style="width:300px"/><img src="/images/_20201221175532.jpg" style="width:300px"/></span>
 
 查看元素查看`Log` 、`System`、 `Network` 、`Element` 、`Storage` 就是这么简单
 
@@ -183,7 +183,7 @@ https://github.com/Tencent/vConsole
 
 平常我们都会用到一些模板工具 来便捷生成 代码片段
 
-![](./images/11.png)
+![](/images/11.png)
 
 我的代码片段
 
@@ -250,7 +250,7 @@ https://github.com/Tencent/vConsole
 
 它会在行号左侧的小槽中展示图片的预览，MD 中也可以 hover 预览
 
-![](./images/image-20201221174316302.png)
+![](/images/image-20201221174316302.png)
 
 
 
@@ -283,7 +283,7 @@ Star `13.7k`
 
 地址：https://github.com/excalidraw/excalidraw
 
-![](./images/image-20201221180617126.png)
+![](/images/image-20201221180617126.png)
 
 
 
@@ -303,11 +303,11 @@ Star `15.8k`
 [![Mr.Yan's Github Stats](https://github-readme-stats.vercel.app/api?username=CrazyMrYan&count_private=true&show_icons=true&theme=merko&include_all_commits=true)](https://github.com/CrazyMrYan)
 ```
 
-![](./images/git.png)
+![](/images/git.png)
 
 效果图：
 
-![](./images/image-20201222120345439.png)
+![](/images/image-20201222120345439.png)
 
 地址：https://github.com/anuraghazra/github-readme-stats
 

@@ -94,7 +94,7 @@ node index.js
 
 在浏览器中我们就能看到下面的效果
 
-![](../../../public/images/WX20220512-171628.png)
+![](/images/WX20220512-171628.png)
 
 
 <Comment />

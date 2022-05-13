@@ -15,13 +15,13 @@ describe: svelte 不知道大家有没有了解过，最近一次偶然刷文章
 
 对比各框架开发的项目的尺寸
 
-![对比各框架开发的项目的尺寸](./images/1.jpg)
+![对比各框架开发的项目的尺寸](/images/1.jpg)
 
 
 
 对比各项目的 Lighthouse 性能评分
 
-![对比各项目的 Lighthouse 性能评分](./images/640.jpg)
+![对比各项目的 Lighthouse 性能评分](/images/640.jpg)
 
 
 
@@ -59,7 +59,7 @@ if (changed.name) {
 
 vue 的作者尤雨溪，在知乎回答了个 [《如何看待 svelte 这个前端框架？》](https://www.zhihu.com/question/53150351) [3] 问题
 
-![](./images/image-20201130170959194.png)
+![](/images/image-20201130170959194.png)
 
 “svelte 的核心思想在于 **通过静态编译来减少框架运行时的代码**”
 
@@ -104,7 +104,7 @@ svelte：https://github.com/sveltejs/realworld
 
 感兴趣的同学也可以看看其他框架 https://github.com/gothinkster/realworld
 
-![](./images/image-20201201175253834.png)
+![](/images/image-20201201175253834.png)
 
 #### 开始打包
 
@@ -146,15 +146,15 @@ lighthouse https://realworld.svelte.dev/
 
 vue 
 
-![](./images/image-20201203171006602.png)
+![](/images/image-20201203171006602.png)
 
 react
 
-![](./images/image-20201203171137276.png)
+![](/images/image-20201203171137276.png)
 
 svelte
 
-![](./images/image-20201203171339234.png)
+![](/images/image-20201203171339234.png)
 
 #### 对比性能
 
@@ -192,7 +192,7 @@ npm install
 
 下载完成之后，我们看看目录。老严的评价就是 `简洁`
 
-![](./images/image-20201130113835071.png)
+![](/images/image-20201130113835071.png)
 
 ### 启动项目
 
@@ -217,7 +217,7 @@ npm run dev
 
 地址栏输入 `http://localhost:5000`
 
-![image-20201130113222571](./images/image-20201130113222571.png)
+![image-20201130113222571](/images/image-20201130113222571.png)
 
 我们可以看到这样的一个页面 hello world
 
@@ -247,7 +247,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 <Button color="danger" on:click={handleClick}>Do Not Press</Button>
 ```
 
-![](./images/image-20201205104807542.png)
+![](/images/image-20201205104807542.png)
 
 
 
@@ -287,7 +287,7 @@ svelte 绑定数据 ，svelte 动态绑定需要加上 {}
 <Button>{name}</Button>
 ```
 
-![](./images/image-20201205114940929.png)
+![](/images/image-20201205114940929.png)
 
 #### 条件渲染
 
@@ -308,7 +308,7 @@ vue 中有条件渲染 `v-if`  `v-else-if` `v-else` ,svelte 也有
 {/if}
 ```
 
-![](./images/image-20201205133217424.png)
+![](/images/image-20201205133217424.png)
 
 #### 循环渲染
 
@@ -347,7 +347,7 @@ vue 中有条件渲染 `v-if`  `v-else-if` `v-else` ,svelte 也有
 </style>
 ```
 
-![](./images/image-20201205133722710.png)
+![](/images/image-20201205133722710.png)
 
 咋感觉有点像 `ejs` 循环渲染呢  [5]呢?
 
@@ -373,7 +373,7 @@ vue 中有条件渲染 `v-if`  `v-else-if` `v-else` ,svelte 也有
 <h1>{title}</h1>
 ```
 
-![](./images/method.gif)
+![](/images/method.gif)
 
 
 
@@ -410,7 +410,7 @@ app.svelte
 
 
 
-![image-20201205140934477](./images/image-20201205140934477.png)
+![image-20201205140934477](/images/image-20201205140934477.png)
 
 那么组件有了，我们来看看组件传值吧！
 
@@ -443,7 +443,7 @@ child.svelte
 <div>爹给我取的名字是 {childName}</div>
 ```
 
-![](./images/image-20201205141812363.png)
+![](/images/image-20201205141812363.png)
 
 刚刚我们是简单的单一传值
 
@@ -481,7 +481,7 @@ child.svelte
 <div>我取的性别是 {gender}</div>
 ```
 
-![](./images/image-20201205142824450.png)
+![](/images/image-20201205142824450.png)
 
 那这多费劲呐？还需要一个个接收。有一话叫存在即合理
 
@@ -491,7 +491,7 @@ child.svelte
 
 在官方 api 中提到 svelte 提供了一些动画效果出来给大家使用
 
-![](./images/image-20201205140449260.png)
+![](/images/image-20201205140449260.png)
 
 我们直接使用官方示例 淡入淡出动画
 
@@ -513,7 +513,7 @@ child.svelte
 {/if}
 ```
 
-![](./images/animation.gif)
+![](/images/animation.gif)
 
 #### 生命周期
 
@@ -609,7 +609,7 @@ child.svelte
 
 因为样式代码 太多,我们先上效果图再看代码
 
-![](./images/todolist.gif)
+![](/images/todolist.gif)
 
 ```html
 <script>
