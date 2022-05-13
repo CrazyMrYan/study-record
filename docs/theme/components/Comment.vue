@@ -760,12 +760,9 @@ import Gitalk from 'gitalk';
           box-sizing: border-box;
 }
 .gt-container a {
-  color: #6190e8;
+  color: var(--c-brand);
 }
-.gt-container a:hover {
-  color: #81a6ed;
-  border-color: #81a6ed;
-}
+
 .gt-container a.is--active {
   color: #333;
   cursor: default !important;
@@ -785,7 +782,7 @@ import Gitalk from 'gitalk';
 .gt-container .gt-svg svg {
   width: 100%;
   height: 100%;
-  fill: #6190e8;
+  fill: var(--c-brand);
 }
 .gt-container .gt-ico {
   display: inline-block;
@@ -819,7 +816,7 @@ import Gitalk from 'gitalk';
   margin-left: -0.375em;
   border-radius: 50%;
   border: 1px solid #fff;
-  border-top-color: #6190e8;
+  border-top-color: var(--c-brand);
   -webkit-animation: gt-kf-rotate 0.6s linear infinite;
           animation: gt-kf-rotate 0.6s linear infinite;
 }
@@ -882,9 +879,9 @@ import Gitalk from 'gitalk';
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
-  border: 1px solid #6190e8;
+  border: 1px solid var(--c-brand);
   border-radius: 5px;
-  background-color: #6190e8;
+  background-color: var(--c-brand);
   color: #fff;
   outline: none;
   font-size: 0.75em;
@@ -909,7 +906,7 @@ import Gitalk from 'gitalk';
 }
 .gt-container .gt-btn-preview {
   background-color: #fff;
-  color: #6190e8;
+  color: var(--c-brand);
 }
 .gt-container .gt-btn-preview:hover {
   background-color: #f2f2f2;
@@ -937,7 +934,7 @@ import Gitalk from 'gitalk';
   text-align: center;
 }
 .gt-container .gt-link {
-  border-bottom: 1px dotted #6190e8;
+  border-bottom: 1px dotted var(--c-brand);
 }
 .gt-container .gt-link-counts,
 .gt-container .gt-link-project {
@@ -985,7 +982,7 @@ import Gitalk from 'gitalk';
   fill: inherit;
 }
 .gt-container .gt-user .is--poping .gt-ico svg {
-  fill: #6190e8;
+  fill: var(--c-brand);
 }
 .gt-container .gt-version {
   color: #a1a1a1;
@@ -1019,7 +1016,7 @@ import Gitalk from 'gitalk';
   content: '';
   width: 0.25em;
   height: 0.25em;
-  background: #6190e8;
+  background: var(--c-brand);
   position: absolute;
   left: 0.5em;
   top: 0.4375em;
@@ -1087,7 +1084,7 @@ import Gitalk from 'gitalk';
 }
 .gt-container .gt-header-controls-tip {
   font-size: 0.875em;
-  color: #6190e8;
+  color: var(--c-brand);
   text-decoration: none;
   vertical-align: sub;
 }
@@ -1190,7 +1187,7 @@ import Gitalk from 'gitalk';
 }
 .gt-container .gt-comment-username {
   font-weight: 500;
-  color: #6190e8;
+  color: var(--c-brand);
   text-decoration: none;
 }
 .gt-container .gt-comment-username:hover {
