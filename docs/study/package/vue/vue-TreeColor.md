@@ -14,7 +14,7 @@ describe: vue-tree-color 的详细说明书 , 你值得入手
 
 ## 安装
 
-### NPM
+## NPM
 
 ``` javascript
 # use npm
@@ -22,7 +22,7 @@ npm install vue-tree-color
 
 ```
 
-### 安装 loader 
+## 安装 loader 
 
 温馨提示：不安装less-loader基本上都会报错
 
@@ -30,7 +30,7 @@ npm install vue-tree-color
 npm install --save-dev less less-loader
 ```
 
-### Import Plugins
+## Import Plugins
 
 ``` javascript
 import Vue from 'vue'
@@ -43,7 +43,7 @@ Vue.use(Vue2OrgTree)
 
 严老湿这边呢，就直接使用` Vue-cli `起步了，`vue-tree-color`安装成功之后，我们就直接使用了，在`Vue`页面或者组件中使用`vue2-org-tree` 标签，动态绑定data
 
-### 基本创建
+## 基本创建
 
 ``` html
 <vue2-org-tree :data="data"/>
@@ -111,11 +111,11 @@ data: {
 
 ![](https://user-gold-cdn.xitu.io/2020/3/26/17114cd3d86d600d?w=909&h=282&f=png&s=6186)
 
-### 排列方式
+## 排列方式
 
 刚刚我们看到的是默认排列方式 ，其实还有一种排列方式，我们一起来看看
 
-#### 水平排列
+## 水平排列
 
 `horizontal`  是水平排列方式，我们来实践一下吧，它的参数是`true`、`false`
 
@@ -131,7 +131,7 @@ data: {
 
 ![](https://user-gold-cdn.xitu.io/2020/3/26/17114cd9b7ad8807?w=579&h=556&f=png&s=7412)
 
-### 修改背景色
+## 修改背景色
 
 ​	使用 `label-class-name `  我们还可以动态绑定自定义`class`
 
@@ -171,7 +171,7 @@ css：
 
 ![](https://user-gold-cdn.xitu.io/2020/3/26/17114cdc73d12fe8?w=522&h=586&f=png&s=6332)
 
-### 折叠展示
+## 折叠展示
 
 折叠展示效果
 
@@ -269,7 +269,7 @@ this.toggleExpand(this.data,true)
 
 `vue2-org-tree` 向我们抛出了几个事件，我们先看看有哪些事件
 
-### 点击事件
+## 点击事件
 
 `on-node-click` 就是被抛出的点击事件
 
@@ -319,7 +319,7 @@ NodeClick(e,data){
 }
 ```
 
-### 移入移出
+## 移入移出
 
 它还向我们抛出了移入移出事件，返回值与点击事件大致相同
 
@@ -335,7 +335,7 @@ NodeClick(e,data){
 />
 ```
 
-### 拓展移入移出
+## 拓展移入移出
 
 ​	来了老弟？我们做移入移出，肯定是要有功能的对不对？
 
@@ -409,7 +409,7 @@ css:
 
 ![GIF](https://user-gold-cdn.xitu.io/2020/3/26/17114cc0959604ab?w=976&h=566&f=gif&s=30669)
 
-### 自定义方块颜色
+## 自定义方块颜色
 
 这个地方是严老湿在原有的基础上进行了封装改良，我在内部文件中修改了部分内容话不多说，我们上代码看看
 
@@ -564,7 +564,7 @@ data: {
 
 ## API
 
-### props
+## props
 
 
 | prop              | descripton                         |          type          |                          default                           |
@@ -578,7 +578,7 @@ data: {
 | selectedKey       | The key of the selected node       |        `String`        |                             -                              |
 | selectedClassName | The className of the selected node | `Function` \| `String` |                             -                              |
 
-### events
+## events
 
 | event name | descripton        | type       |
 | ---------- | ----------------- | :--------- |
@@ -586,30 +586,30 @@ data: {
 | mouseover  | onMouseOver event | `Function` |
 | mouseout   | onMouseOut event  | `Function` |
 
-  * ### Call events
+  * ## Call events
 
-#### on-expand
+## on-expand
 
 鼠标点击时调用它。
 
 - params `e` `Event`
 - params `data` `Current node data`
 
-#### on-node-click
+## on-node-click
 
 well be called when the node-label clicked
 
 - params `e` `Event`
 - params `data` `Current node data`     
 
-#### on-node-mouseover
+## on-node-mouseover
 
 当鼠标悬停时调用它。
 
 - params `e` `Event`
 - params `data` `Current node data`   
 
-#### on-node-mouseout
+## on-node-mouseout
 
 当鼠标离开时调用它。
 

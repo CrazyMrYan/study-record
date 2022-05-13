@@ -19,7 +19,7 @@ describe: 老板：“小严，我们马上要做一个大屏可视化，一个�
 
 ## 简单起步
 
-### 创建vue-cli
+## 创建vue-cli
 
  我们还是老套路，先创建一个`vue-cli` ,如果你已经创建了项目可以跳转到 下一步
 
@@ -31,7 +31,7 @@ yarn serve
 
  配置啥的 就不用老严多说了吧（你已经是一个成熟的前端开发者了\~）
 
-### 安装 Echarts
+## 安装 Echarts
 
  以下几种安装方式择其一
 
@@ -46,7 +46,7 @@ npm install echarts -S
 cnpm install echarts -S
 ```
 
-### 全局引入
+## 全局引入
 
  在main.js中
 
@@ -57,7 +57,7 @@ Vue.prototype.$echarts = echarts
 
  到了这一步说明你已经把准备工作做完了
 
-### 清空多余代码
+## 清空多余代码
 
  我们先把页面其他不需要用到的代码给清除吧
 
@@ -76,7 +76,7 @@ export default {
 </script>
 ```
 
-### 创建一个容器
+## 创建一个容器
 
 创建一个 id 为`EChart` 的div 作为容器 \(使用id会有个小问题，在最后解答\)
 
@@ -84,7 +84,7 @@ export default {
 <div id="EChart" style="width: 300px; height: 300px;"></div>
 ```
 
-### 创建一个方法
+## 创建一个方法
 
 ```js
 getRenderer() {
@@ -112,7 +112,7 @@ getRenderer() {
 },
 ```
 
-### 生命周期中调用此方法
+## 生命周期中调用此方法
 
 ```js
 mounted() {
@@ -121,7 +121,7 @@ mounted() {
 },
 ```
 
-### 请看大屏幕
+## 请看大屏幕
 
 ![](https://pic1.zhimg.com/v2-8ab1ba10c0b526354213efab320051f0_b.jpg)
 
@@ -131,7 +131,7 @@ mounted() {
 
  严老师：“说实话确实有点low ，不要慌这才哪到哪呢，我们先从基础讲堂开始嘛”
 
-### 先了解其参数
+## 先了解其参数
 
  先讲讲其中简单的一些配置参数，枯燥乏味，但是摸清楚之后，以后画图那是顺手得一\*\*
 
@@ -152,11 +152,11 @@ mounted() {
 
 ## 来造作一下下
 
-### series type
+## series type
 
 来吧！！展示
 
-### 折线图
+## 折线图
 
  修改折线图,复制上面的`config`代码
 
@@ -182,7 +182,7 @@ let config = {
 
 ![](https://pic1.zhimg.com/v2-00a448217568b42088831d1200121bfc_b.jpg)
 
-### 饼状图
+## 饼状图
 
  饼状图，我们也来看看，将`type`修改为`pie`
 
@@ -210,7 +210,7 @@ let config = {
 
 ![](https://pic2.zhimg.com/v2-72ec262ec99df508632ae28ed465ffd5_b.jpg)
 
-### 仪表盘
+## 仪表盘
 
  仪表盘将 `type` 修改为 `gauge`
 
@@ -230,7 +230,7 @@ let config = {
 
  嗯\~ 看起来有那么一点味道了
 
-### 画一个老严的脸
+## 画一个老严的脸
 
 ```js
 let config = {
@@ -254,7 +254,7 @@ let config = {
 
 哈哈哈 倒三角就是老严的脸了 （脑补一下下）
 
-### legend
+## legend
 
 刚刚其实我们已经用到了这个参数噢 ps：饼状图
 
@@ -266,7 +266,7 @@ let config = {
 
 默认为`plain` 当图表内容比较丰富的时候可以使用 `scroll` 可以带有滚动操作
 
-### color
+## color
 
  都说颜色是Web的灵魂所在，每一个人都是画手
 
@@ -300,7 +300,7 @@ let config = {
 };
 ```
 
-### yAxis
+## yAxis
 
 我们还是以线条为参考8
 
@@ -358,7 +358,7 @@ let config = {
 
 ![](https://pic4.zhimg.com/v2-f2596484f0c62ff37fd8b5341bc59b33_b.jpg)
 
-### xAxis
+## xAxis
 
 x轴与y轴基本同理，直接改成数组就成为双x轴了
 

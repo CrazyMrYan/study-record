@@ -27,7 +27,7 @@ describe: 最近我们这边要做一个高大上的数据化地图展示，并�
 ![](https://static01.imgkr.com/temp/1ea5789fb7ed486087129bc21b9fb32f.png)
 
 
-### 1. 下载资源
+## 1. 下载资源
 
 首先，先去把地图渲染的数据搞定 这是找到地图的数据链接
 可以做广东的也可以做 全国或者 其他省份，地区（市区都可以的）
@@ -42,7 +42,7 @@ http://datav.aliyun.com/tools/atlas/#&lat=22.88859114953859&lng=113.420398082590
 https://geo.datav.aliyun.com/areas_v2/bound/440000.json
 ```
 
-### 2. 添加容器 
+## 2. 添加容器 
 
 html 部分
 
@@ -50,7 +50,7 @@ html 部分
  <div id="main" style="width: 50%; height: 480px"></div>
 ```
 
-### 3. 引入资源
+## 3. 引入资源
 
 并且把刚才下载的 json数据 保存在本地
 ![](https://static01.imgkr.com/temp/e49995b6695840ebabdc38f720323164.png)
@@ -63,7 +63,7 @@ html 部分
 
 引入之后
 
-### 4. 开始折腾
+## 4. 开始折腾
 
 在生命周期请求后台数据，等待请求返回之后再开始 初始化并完成渲染
 
