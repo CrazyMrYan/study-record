@@ -92,12 +92,14 @@ node index.js
 </script>
 ```
 
-在浏览器中我们就能看到下面的效果
+在终端中我们就能看到下面的效果
+
+![](/Users/yanjiahui/Library/Application Support/typora-user-images/image-20220517141727036.png)
 
 ![](/images/WX20220512-171628.png)
 
-
 <Comment />
+
 <script setup>
 import Comment from '/theme/components/Comment.vue'
 </script>
